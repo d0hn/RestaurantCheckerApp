@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gps_restaurant"
+            android:icon="@drawable/ic_explore"
+            android:title="Find Restaurant near you!"
+            android:tint="#58aa46"/>
+
+    </group>
+
+    <item android:title="Find">
+        <menu>
+            <item
+                android:id="@+id/name_restaurant"
+                android:icon="@drawable/ic_pageview"
+                android:title="Find by restaurant name"
+                android:tint="#58aa46"/>
+            <item
+                android:id="@+id/postcode_restaurant"
+                android:icon="@drawable/ic_room"
+                android:title="Find by postcode"
+                android:tint="#58aa46"/>
+        </menu>
+    </item>
+    <item android:title="Maps">
+        <menu>
+            <item
+                android:id="@+id/maps_restaurant"
+                android:icon="@drawable/ic_explore"
+                android:title="Find on maps"
+                android:tint="#58aa46"/>
+        </menu>
+    </item>
+
+</menu>
